@@ -8,7 +8,7 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/melvin-gieswein-portfolio">
+      <BrowserRouter basename='/melvin-gieswein-portfolio/'>
         <App />
       </BrowserRouter>
     </HelmetProvider>
